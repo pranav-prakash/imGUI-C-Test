@@ -7,8 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		407AEF7F1BCB0F20009EE4D5 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 407AEF7E1BCB0F20009EE4D5 /* main.cpp */; };
 		407AEF811BCB0F20009EE4D5 /* Imgui_Test.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 407AEF801BCB0F20009EE4D5 /* Imgui_Test.1 */; };
+		407AEF881BCB0F7E009EE4D5 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 407AEF871BCB0F7E009EE4D5 /* OpenGL.framework */; };
+		407AEF8A1BCB0F9D009EE4D5 /* libglfw3.3.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 407AEF891BCB0F9D009EE4D5 /* libglfw3.3.1.dylib */; };
+		407AEF8E1BCB10D2009EE4D5 /* imgui_impl_glfw.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 407AEF8B1BCB10D2009EE4D5 /* imgui_impl_glfw.cpp */; };
+		407AEF8F1BCB10D2009EE4D5 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 407AEF8D1BCB10D2009EE4D5 /* main.cpp */; };
+		407AEF911BCB13BC009EE4D5 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 407AEF901BCB13BC009EE4D5 /* Cocoa.framework */; };
+		407AEF931BCB13C4009EE4D5 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 407AEF921BCB13C4009EE4D5 /* IOKit.framework */; };
+		407AEF951BCB13C9009EE4D5 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 407AEF941BCB13C9009EE4D5 /* CoreVideo.framework */; };
+		407AEFA01BCB166C009EE4D5 /* imgui.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 407AEF981BCB166C009EE4D5 /* imgui.cpp */; };
+		407AEFA11BCB166C009EE4D5 /* imgui_demo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 407AEF9A1BCB166C009EE4D5 /* imgui_demo.cpp */; };
+		407AEFA21BCB166C009EE4D5 /* imgui_draw.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 407AEF9B1BCB166C009EE4D5 /* imgui_draw.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,8 +35,24 @@
 
 /* Begin PBXFileReference section */
 		407AEF7B1BCB0F20009EE4D5 /* Imgui Test */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Imgui Test"; sourceTree = BUILT_PRODUCTS_DIR; };
-		407AEF7E1BCB0F20009EE4D5 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		407AEF801BCB0F20009EE4D5 /* Imgui_Test.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Imgui_Test.1; sourceTree = "<group>"; };
+		407AEF871BCB0F7E009EE4D5 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		407AEF891BCB0F9D009EE4D5 /* libglfw3.3.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libglfw3.3.1.dylib; path = ../../../../../usr/local/Cellar/glfw3/3.1.1/lib/libglfw3.3.1.dylib; sourceTree = "<group>"; };
+		407AEF8B1BCB10D2009EE4D5 /* imgui_impl_glfw.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = imgui_impl_glfw.cpp; path = "../../../../Downloads/imgui-master/examples/opengl_example/imgui_impl_glfw.cpp"; sourceTree = "<group>"; };
+		407AEF8C1BCB10D2009EE4D5 /* imgui_impl_glfw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = imgui_impl_glfw.h; path = "../../../../Downloads/imgui-master/examples/opengl_example/imgui_impl_glfw.h"; sourceTree = "<group>"; };
+		407AEF8D1BCB10D2009EE4D5 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = "../../../../Downloads/imgui-master/examples/opengl_example/main.cpp"; sourceTree = "<group>"; };
+		407AEF901BCB13BC009EE4D5 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		407AEF921BCB13C4009EE4D5 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		407AEF941BCB13C9009EE4D5 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		407AEF971BCB166C009EE4D5 /* imconfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = imconfig.h; sourceTree = "<group>"; };
+		407AEF981BCB166C009EE4D5 /* imgui.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = imgui.cpp; sourceTree = "<group>"; };
+		407AEF991BCB166C009EE4D5 /* imgui.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = imgui.h; sourceTree = "<group>"; };
+		407AEF9A1BCB166C009EE4D5 /* imgui_demo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = imgui_demo.cpp; sourceTree = "<group>"; };
+		407AEF9B1BCB166C009EE4D5 /* imgui_draw.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = imgui_draw.cpp; sourceTree = "<group>"; };
+		407AEF9C1BCB166C009EE4D5 /* imgui_internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = imgui_internal.h; sourceTree = "<group>"; };
+		407AEF9D1BCB166C009EE4D5 /* stb_rect_pack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stb_rect_pack.h; sourceTree = "<group>"; };
+		407AEF9E1BCB166C009EE4D5 /* stb_textedit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stb_textedit.h; sourceTree = "<group>"; };
+		407AEF9F1BCB166C009EE4D5 /* stb_truetype.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stb_truetype.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +60,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				407AEF951BCB13C9009EE4D5 /* CoreVideo.framework in Frameworks */,
+				407AEF931BCB13C4009EE4D5 /* IOKit.framework in Frameworks */,
+				407AEF911BCB13BC009EE4D5 /* Cocoa.framework in Frameworks */,
+				407AEF8A1BCB0F9D009EE4D5 /* libglfw3.3.1.dylib in Frameworks */,
+				407AEF881BCB0F7E009EE4D5 /* OpenGL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,8 +74,14 @@
 		407AEF721BCB0F20009EE4D5 = {
 			isa = PBXGroup;
 			children = (
+				407AEF941BCB13C9009EE4D5 /* CoreVideo.framework */,
+				407AEF921BCB13C4009EE4D5 /* IOKit.framework */,
+				407AEF901BCB13BC009EE4D5 /* Cocoa.framework */,
+				407AEF891BCB0F9D009EE4D5 /* libglfw3.3.1.dylib */,
+				407AEF871BCB0F7E009EE4D5 /* OpenGL.framework */,
 				407AEF7D1BCB0F20009EE4D5 /* Imgui Test */,
 				407AEF7C1BCB0F20009EE4D5 /* Products */,
+				407AEF961BCB166C009EE4D5 /* imgui */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,11 +96,30 @@
 		407AEF7D1BCB0F20009EE4D5 /* Imgui Test */ = {
 			isa = PBXGroup;
 			children = (
-				407AEF7E1BCB0F20009EE4D5 /* main.cpp */,
+				407AEF8B1BCB10D2009EE4D5 /* imgui_impl_glfw.cpp */,
+				407AEF8C1BCB10D2009EE4D5 /* imgui_impl_glfw.h */,
+				407AEF8D1BCB10D2009EE4D5 /* main.cpp */,
 				407AEF801BCB0F20009EE4D5 /* Imgui_Test.1 */,
 			);
 			path = "Imgui Test";
 			sourceTree = "<group>";
+		};
+		407AEF961BCB166C009EE4D5 /* imgui */ = {
+			isa = PBXGroup;
+			children = (
+				407AEF971BCB166C009EE4D5 /* imconfig.h */,
+				407AEF981BCB166C009EE4D5 /* imgui.cpp */,
+				407AEF991BCB166C009EE4D5 /* imgui.h */,
+				407AEF9A1BCB166C009EE4D5 /* imgui_demo.cpp */,
+				407AEF9B1BCB166C009EE4D5 /* imgui_draw.cpp */,
+				407AEF9C1BCB166C009EE4D5 /* imgui_internal.h */,
+				407AEF9D1BCB166C009EE4D5 /* stb_rect_pack.h */,
+				407AEF9E1BCB166C009EE4D5 /* stb_textedit.h */,
+				407AEF9F1BCB166C009EE4D5 /* stb_truetype.h */,
+			);
+			name = imgui;
+			path = /usr/local/include/imgui;
+			sourceTree = "<absolute>";
 		};
 /* End PBXGroup section */
 
@@ -117,7 +172,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				407AEF7F1BCB0F20009EE4D5 /* main.cpp in Sources */,
+				407AEF8E1BCB10D2009EE4D5 /* imgui_impl_glfw.cpp in Sources */,
+				407AEF8F1BCB10D2009EE4D5 /* main.cpp in Sources */,
+				407AEFA11BCB166C009EE4D5 /* imgui_demo.cpp in Sources */,
+				407AEFA21BCB166C009EE4D5 /* imgui_draw.cpp in Sources */,
+				407AEFA01BCB166C009EE4D5 /* imgui.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,14 +256,28 @@
 		407AEF851BCB0F20009EE4D5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/glfw3/3.1.1/lib,
+				);
+				OTHER_LDFLAGS = "-lglfw3";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = /usr/local/include;
 			};
 			name = Debug;
 		};
 		407AEF861BCB0F20009EE4D5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/glfw3/3.1.1/lib,
+				);
+				OTHER_LDFLAGS = "-lglfw3";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = /usr/local/include;
 			};
 			name = Release;
 		};
